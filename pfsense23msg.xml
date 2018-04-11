@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEVICEMESSAGES
+	 name="pfsense23"
+	 displayname="pfsense23"
+	 group="Firewall"
+	 type="999">
+<VERSION
+	 xml="1"
+	 revision="0"
+	 device="2.0"/>
+<TAGVALMAP/>
+<HEADER
+	 id1="0002"
+	 id2="0002"
+	 messageid="STRCAT(msgIDPart1,'_',msgIDPart2,'_',msgIDPart3)"
+	 content="&lt;hmonth&gt;&lt;hday&gt;&lt;hhour&gt;:&lt;hmin&gt;:&lt;hsec&gt;&lt;hdevice&gt;:&lt;hdata&gt;,&lt;hinfo&gt;,,&lt;hzone&gt;,&lt;haddress&gt;,match,&lt;msgIDPart1&gt;,&lt;msgIDPart2&gt;,&lt;msgIDPart3&gt;,&lt;!payload:$START&gt;"/>
+<HEADER
+	 id1="0001"
+	 id2="0001"
+	 messageid="STRCAT(msgIDPart1,'_',msgIDPart2,'_',msgIDPart3)"
+	 content="&lt;hmonth&gt;&lt;hday&gt;&lt;hhour&gt;:&lt;hmin&gt;:&lt;hsec&gt;&lt;hdevice&gt;:&lt;hdata&gt;,&lt;hinfo&gt;,,&lt;hzone&gt;,&lt;haddress&gt;,match,&lt;msgIDPart1&gt;,&lt;msgIDPart2&gt;,&lt;msgIDPart3&gt;,&lt;!payload:$START&gt;"/>
+<MESSAGE
+	 id1="block_in_4"
+	 id2="block_in_4"
+	 eventcategory="1802000000"
+	 content="&lt;event_time_string&gt;filterlog:&lt;fld1&gt;,&lt;fld2&gt;,,&lt;fld3&gt;,&lt;interface&gt;,match,&lt;action&gt;,&lt;tdirection&gt;,4,&lt;fld5&gt;,,&lt;fld6&gt;,&lt;fld7&gt;,&lt;fld8&gt;,&lt;fld9&gt;,&lt;ip_proto&gt;,&lt;protocol_detail&gt;,&lt;fld10&gt;,&lt;saddr&gt;,&lt;daddr&gt;,&lt;sport&gt;,&lt;dport&gt;,&lt;fld11&gt;,&lt;fld12&gt;,&lt;fld13&gt;,,&lt;fld14&gt;,,"/>
+<MESSAGE
+	 id1="block_in_4:01"
+	 id2="block_in_4"
+	 eventcategory="1802000000"
+	 content="&lt;event_time_string&gt;filterlog:&lt;fld1&gt;,&lt;fld2&gt;,,&lt;fld3&gt;,&lt;interface&gt;,match,&lt;action&gt;,&lt;tdirection&gt;,4,&lt;fld4&gt;,,&lt;fld5&gt;,&lt;fld6&gt;,&lt;fld7&gt;,&lt;fld8&gt;,&lt;ip_proto&gt;,&lt;protocol_detail&gt;,&lt;fld9&gt;,&lt;saddr&gt;,&lt;daddr&gt;,&lt;sport&gt;,&lt;dport&gt;,&lt;fld10&gt;"/>
+<MESSAGE
+	 id1="block_in_6"
+	 id2="block_in_6"
+	 eventcategory="1802000000"
+	 content="&lt;event_time_string&gt;filterlog:&lt;fld1&gt;,&lt;fld2&gt;,,&lt;fld3&gt;,&lt;interface&gt;,match,&lt;action&gt;,&lt;tdirection&gt;,6,&lt;fld4&gt;,&lt;fld5&gt;,&lt;fld6&gt;,&lt;protocol_detail&gt;,&lt;ip_proto&gt;,&lt;fld7&gt;,&lt;saddr&gt;,&lt;daddr&gt;,&lt;sport&gt;,&lt;dport&gt;,&lt;fld8&gt;"/>
+<MESSAGE
+	 id1="block_in_6:01"
+	 id2="block_in_6"
+	 eventcategory="1802000000"
+	 content="&lt;event_time_string&gt;filterlog:&lt;fld1&gt;,&lt;fld2&gt;,,&lt;fld3&gt;,&lt;interface&gt;,match,&lt;action&gt;,&lt;tdirection&gt;,6,&lt;fld4&gt;,&lt;fld5&gt;,&lt;fld6&gt;,&lt;protocol_detail&gt;,&lt;ip_proto&gt;,&lt;fld7&gt;,&lt;saddr&gt;,&lt;daddr&gt;,"/>
+<MESSAGE
+	 id1="pass_in_4"
+	 id2="pass_in_4"
+	 eventcategory="1802000000"
+	 content="&lt;event_time_string&gt;filterlog:&lt;fld1&gt;,&lt;fld2&gt;,,&lt;fld3&gt;,&lt;interface&gt;,match,&lt;action&gt;,&lt;tdirection&gt;,4,&lt;fld4&gt;,,&lt;fld5&gt;,&lt;fld6&gt;,&lt;fld7&gt;,&lt;fld8&gt;,&lt;ip_proto&gt;,&lt;protocol_detail&gt;,&lt;fld9&gt;,&lt;saddr&gt;,&lt;daddr&gt;,&lt;sport&gt;,&lt;dport&gt;,&lt;fld10&gt;,&lt;fld11&gt;,&lt;fld12&gt;,,&lt;fld13&gt;,,"/>
+<MESSAGE
+	 id1="pass_in_4:01"
+	 id2="pass_in_4"
+	 eventcategory="1802000000"
+	 content="&lt;event_time_string&gt;filterlog:&lt;fld1&gt;,&lt;fld2&gt;,,&lt;fld3&gt;,&lt;interface&gt;,match,&lt;action&gt;,&lt;tdirection&gt;,4,&lt;fld4&gt;,,&lt;fld5&gt;,&lt;fld6&gt;,&lt;fld7&gt;,&lt;fld8&gt;,&lt;ip_proto&gt;,&lt;protocol_detail&gt;,&lt;fld9&gt;,&lt;saddr&gt;,&lt;daddr&gt;,&lt;fld10&gt;,&lt;fld11&gt;,&lt;fld12&gt;"/>
+<MESSAGE
+	 id1="pass_in_6"
+	 id2="pass_in_6"
+	 eventcategory="1802000000"
+	 content="&lt;event_time_string&gt;filterlog:&lt;fld1&gt;,&lt;fld2&gt;,,&lt;fld3&gt;,&lt;interface&gt;,match,&lt;action&gt;,&lt;tdirection&gt;,6,&lt;fld4&gt;,&lt;fld5&gt;,&lt;fld6&gt;,&lt;protocol_detail&gt;,&lt;ip_proto&gt;,&lt;fld9&gt;,&lt;saddr&gt;,&lt;daddr&gt;,&lt;sport&gt;,&lt;dport&gt;,&lt;fld12&gt;"/>
+<MESSAGE
+	 id1="pass_out_4"
+	 id2="pass_out_4"
+	 eventcategory="1802000000"
+	 content="&lt;event_time_string&gt;filterlog:&lt;fld1&gt;,&lt;fld2&gt;,,&lt;fld3&gt;,&lt;interface&gt;,match,&lt;action&gt;,&lt;tdirection&gt;,4,&lt;fld5&gt;,,&lt;fld6&gt;,&lt;fld7&gt;,&lt;fld8&gt;,&lt;fld9&gt;,&lt;ip_proto&gt;,&lt;protocol_detail&gt;,&lt;fld10&gt;,&lt;saddr&gt;,&lt;daddr&gt;,&lt;sport&gt;,&lt;dport&gt;,&lt;fld11&gt;"/>
+<MESSAGE
+	 id1="pass_out_4:01"
+	 id2="pass_out_4"
+	 eventcategory="1802000000"
+	 content="&lt;event_time_string&gt;filterlog:&lt;fld1&gt;,&lt;fld2&gt;,,&lt;fld3&gt;,&lt;interface&gt;,match,&lt;action&gt;,&lt;tdirection&gt;,4,&lt;fld4&gt;,&lt;fld5&gt;,&lt;fld6&gt;,&lt;fld7&gt;,&lt;fld8&gt;,&lt;fld9&gt;,&lt;ip_proto&gt;,&lt;protocol_detail&gt;,&lt;fld10&gt;,&lt;saddr&gt;,&lt;daddr&gt;,&lt;sport&gt;,&lt;dport&gt;,&lt;fld11&gt;,&lt;fld12&gt;,&lt;fld13&gt;,,&lt;fld14&gt;,,&lt;fld15&gt;"/>
+<MESSAGE
+	 id1="pass_out_6"
+	 id2="pass_out_6"
+	 eventcategory="1802000000"
+	 content="&lt;event_time_string&gt;filterlog:&lt;fld1&gt;,&lt;fld2&gt;,,&lt;fld3&gt;,&lt;interface&gt;,match,&lt;action&gt;,&lt;tdirection&gt;,6,&lt;fld5&gt;,&lt;fld6&gt;,&lt;fld7&gt;,&lt;protocol_detail&gt;,&lt;ip_proto&gt;,&lt;fld10&gt;,&lt;saddr&gt;,&lt;daddr&gt;,&lt;sport&gt;,&lt;dport&gt;,&lt;fld11&gt;"/>
+</DEVICEMESSAGES>
